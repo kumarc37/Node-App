@@ -1,0 +1,21 @@
+###
+
+POST http://localhost:8000/books HTTP/1.1
+content-type: application/json
+
+{
+  "id":4,
+  "title":"Book 4",
+  "author":"Amar"
+}
+###
+PUT  http://localhost:8000/books/2 HTTP/1.1
+content-type: application/json
+
+{
+  "title":"Book 1 By Dilli",
+  "author":"Amar"
+}
+
+###
+DELETE   http://localhost:8000/books/3 HTTP/1.1
